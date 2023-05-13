@@ -13,15 +13,17 @@ export default function App() {
   return (
     <>
 
-      <Navbar  />
+      <Navbar />
       <div> 
       <Routes>
+     
 
         <Route path="/" element={<Home />} />
 
         <Route path="/Projects" element={<Projects />} />
 
         <Route path='*' element={<NotFound />} />
+      
 
       </Routes>
       </div>

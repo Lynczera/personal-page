@@ -23,7 +23,7 @@ const useStyles = createStyles((theme) => ({
   root: {
     position: 'relative',
     zIndex: 1,
-    marginBottom: "3.5rem!important",
+    marginBottom: "0rem!important",
 
   },
 
@@ -50,6 +50,7 @@ const useStyles = createStyles((theme) => ({
     height: '100%',
 
   },
+
 
   links: {
     [theme.fn.smallerThan('sm')]: {

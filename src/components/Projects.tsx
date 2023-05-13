@@ -11,7 +11,7 @@ import {
 } from '@mantine/core';
 export const Projects = () => {
     return (
-        <div>
+        <div className='projectDiv'>
             <Text
                 // variant="gradient"
                 // gradient={{ from: 'indigo', to: 'cyan', deg: 45 }}

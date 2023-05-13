@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.homeGrid {
+  background-color: #F1F3F5;
+  padding-top: 2rem;
+}
+
+html { 
+  background-color: #F1F3F5;
+  
+}
+
+.projectDiv{
+  background-color: #F1F3F5;
+  padding-top: 2rem;
+}

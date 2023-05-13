@@ -19,7 +19,7 @@ export const Home = () => {
         
         <div>
 
-            <Grid>
+            <Grid className='homeGrid'>  
                 <Grid.Col span={4}>
                     <Image maw={240} mx="auto" radius="md" src="leonardochenpic.png" alt="Random image" />
                 </Grid.Col>
