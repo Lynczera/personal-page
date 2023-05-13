@@ -16,6 +16,7 @@ import { FaLinkedin } from "react-icons/fa";
 export const Home = () => {
     
     return (
+        
         <div>
 
             <Grid>
@@ -43,7 +44,7 @@ export const Home = () => {
                             direction="row"
                             wrap="wrap"
                         >
-                            <Container size="xs" px="xs">
+                            <Container size="xs" px="xs" >
                             <Text
                                 // variant="gradient"
                                 // gradient={{ from: 'indigo', to: 'cyan', deg: 45 }}
@@ -53,14 +54,12 @@ export const Home = () => {
                                 fz="xl"
                                 fw={700}
                             >
-                                <p>
                                     Hi,
                                     my name is Leonardo Chen, and I am a
                                     Computer Science student at {<Text component="a" href="https://www.utah.edu/" c="#4263EB" >
                                         The University Of Utah.
-                                    </Text>} This is a personal website to show my projects and professional informations.
+                                    </Text>} This is my personal website where I show my projects and share professional informations.
 
-                                </p>
                             </Text>
                             </Container>
 
