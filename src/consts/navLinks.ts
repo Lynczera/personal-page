@@ -1,0 +1,1 @@
+export const NAV_LINKS = [{ link: "/", label: "Leonardo Chen" }, { link: "/Projects", label: "Projects" }, { link: "/CV", label: "CV" }]
