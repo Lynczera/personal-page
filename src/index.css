@@ -26,3 +26,7 @@ html {
   background-color: #F1F3F5;
   padding-top: 2rem;
 }
+
+a{
+  text-decoration: none;
+}
