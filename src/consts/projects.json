@@ -3,7 +3,7 @@
 		"tittle": "Youtube Short to Video Extension",
 		"description": "A chrome extension that converts a youtube short to a video and vise versa after just converting",
 		"image": "../../projectsImgs/convertIcon.png",
-		"version": "V1.0.1",
+		"version": "V2.0.1",
 		"links": [
 			{
 				"name": "GitHub",
