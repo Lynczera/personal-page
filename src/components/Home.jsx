@@ -4,8 +4,6 @@ import {
     Image,
     Text,
     Grid,
-    ActionIcon,
-    Space,
     Container,
 
 } from '@mantine/core';
