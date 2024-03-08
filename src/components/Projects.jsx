@@ -32,12 +32,14 @@ export const Projects = () => {
 							shadow="sm"
 							padding="lg"
 							radius="md"
-							withBorder>
+							withBorder
+							w={600}>
 							<Card.Section>
 								<Image
 									src={proj.image}
 									height={160}
                                     fit="contain"
+									m={20}
 								/>
 							</Card.Section>
 
@@ -45,7 +47,7 @@ export const Projects = () => {
 								position="apart"
 								mt="md"
 								mb="xs">
-								<Text weight={500}>{proj.tittle}</Text>
+								<Text weight={500}>{proj.title}</Text>
 								<Badge
 									color="pink"
 									variant="light">

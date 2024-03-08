@@ -1,6 +1,6 @@
 [
 	{
-		"tittle": "Youtube Short to Video Extension",
+		"title": "Youtube Short to Video Extension",
 		"description": "A chrome extension that converts a youtube short to a video and vise versa after just converting",
 		"image": "../../projectsImgs/convertIcon.png",
 		"version": "V2.0.1",
@@ -14,5 +14,23 @@
 				"link": "https://chrome.google.com/webstore/detail/youtube-short-to-video-co/ahpfmcbhbecekponcmndgbalgncfelab?hl=en&authuser=0"
 			}
 		]
+	},
+	{
+		"title": "Jobs Tracker",
+		"description": "A web application to track users' job applications",
+		"image": "../../leonardodevicon.png",
+		"version": "V1.0",
+		"links": [
+			{
+				"name": "Client GitHub",
+				"link": "https://github.com/Lynczera/jobs-tracker"
+			},
+			{
+				"name": "Server GitHub",
+				"link": "https://github.com/Lynczera/jobs-tracker-server"
+			}
+		]
 	}
+
+	
 ]
