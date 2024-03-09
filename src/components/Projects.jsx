@@ -10,6 +10,8 @@ import {
 	Anchor,
 } from "@mantine/core";
 
+
+import {isMobile} from 'react-device-detect';
 import projectsObj from "../consts/projects.json";
 
 export const Projects = () => {
@@ -33,13 +35,14 @@ export const Projects = () => {
 							padding="lg"
 							radius="md"
 							withBorder
-							w={600}>
+							w= {isMobile?"100%":"60%"}
+							>
 							<Card.Section>
 								<Image
 									src={proj.image}
 									height={160}
                                     fit="contain"
-									m={20}
+									mt={10}
 								/>
 							</Card.Section>
 
